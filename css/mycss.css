@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&family=Roboto&display=swap');
+/* @font-face {
+    font-family: SectionFont;
+    src: url(../font/GreatVibes-Regular.ttf);
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: kautilyahead;
+    src: url(../font/ChunkFive-Regular.otf);
+} 
+
+.section-font {
+    font-family: kautilyahead;
+    font-size: 6vh;
+}
+
+.section-head-font { 
+    /* font-family: SectionFont; */
+    font-family: 'Lobster', cursive;
+    font-size: 5vh;
+}
+
+
+
+.dropdown-item.active,
+.dropdown-item:active {
+    text-decoration: none;
+    background-color: #ffd000;
+}
+
+.dropdown-item.active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    text-decoration: none;
+    background-color: #ffd000;
+}
+
+.navbar-brand-size {
+    width: 25%;
+}
+
+.nav-item .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-item .nav-link:hover {
+    color: #ffd000;
+}
+
+.bg-kautilya {
+    background-color: #e80802;
+}
+
+/* .kautilyaslidertop {
+    height: 600px;
+   
+} */
+
+.navbar-nav .dropdown-menu {
+    background-color: #e80802;
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    color: rgb(0, 0, 0);
+}
+
+.bg-grey {
+    background-color: rgb(236, 236, 236);
+}
+
+.color-kautilya {
+    color: #e80802;
+}
+
+.kautilya-gradient {
+    /* background: rgb(232, 8, 2); */
+    background: radial-gradient(circle, rgba(232, 10, 2, 0.836), rgba(121, 0, 0, 0.938)), url('../img/back.jpg');
+}
+
+.bg-kautilya-footer {
+    background: rgb(232, 8, 2);
+    background: radial-gradient(circle, rgba(232, 8, 2, 1) 0%, rgba(133, 0, 0, 1) 100%);
+}
+
+.btn-kautilya-footer {
+    color: rgb(255, 255, 255);
+    background-color: #e80802;
+    border-color: #b60600;
+    border: 2px #b60600 solid;
+}
+
+.btn-kautilya {
+    color: rgb(255, 255, 255);
+    background-color: #e80802;
+    border-color: #b60600;
+    border: 2px #b60600 solid;
+}
+
+.btn-kautilya:hover {
+    color: black;
+    background-color: #ffd000;
+    border-color: #b60600;
+    border: 2px #b60600 solid;
+
+}
+
+.hinditext {
+    font-family: 'Laila', sans-serif;
+    font-size: 3vh;
+}
+#footcopy .list-unstyled  a:hover{
+    color: #ffd000;
+}
+#footcopy .list-unstyled  a{
+    color: #ffffff;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: #ffd000;
+    text-decoration: none;
+}
+.copyright p,a{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.copyright p,a{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#topbutton button{
+    z-index: 1;
+}
+.navbar-color{
+    background-color: #9b0100;
+}
+.card-border{
+    border: #ffd000 1px solid;
+}
+/* .accordion-header, .accordian-item{
+    background-color: #9b0100;
+} */
+/* .accordion-button:focus,.accordion-button:active {
+    z-index: 3;
+    border-color:#ffd000;
+    outline: 0;
+    box-shadow: transparent !important;
+} */
+.card .card-header .btn:hover{
+    border-color: transparent !important;
+}
+/* accordion background image */
+.accord-back{
+    background-image: url(../img/back2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* section top padding */
+.section-top-padding{
+    padding-top: 100px;
+}
+/* onscroll reveal element */
+/* .reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+} */
+.text-justify{
+    text-align: justify;
+}
+/* button transperant */
+.btn-transperent{
+    color: white;
+    border: transparent !important;
+}
+.btn-transperent:focus{
+    color: #ffd000;
+}
+.btn-transperent:hover{
+    color: #ffd000;
+}
+.btn-transperent:active{
+    color: #ffd000;
+}
+.btn-check:checked + .btn, 
+.btn.active, 
+.btn.show, 
+.btn:first-child:active, 
+:not(.btn-check) + .btn:active{
+    color: #ffd000;
+}

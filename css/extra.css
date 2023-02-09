@@ -1,0 +1,106 @@
+@media (min-width:424px) and (max-width:768px) {
+    .navbar-brand img {
+        width: 80%;
+    }
+}
+
+/* example section */
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* ---------------------
+for small logo
+------------------------- */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    #first-logo img {
+        display: block;
+        width: 55%;
+    }
+}
+
+/* ---------------------
+for large logo
+------------------------- */
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    #first-logo img {
+        display: block;
+        width: 30%;
+    }
+}
+
+/* for moblie screen slider */
+
+/* @media only screen and (max-width:500px) {
+    .carousel-item img {
+        background-image: url(../img/mobile-slider-1.jpg);
+        width: 100%;
+    }
+} */
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .carousel-item{
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .carousel-item{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    .carousel-item{
+        margin-top: 35px;
+    }
+}
+
+/* --------------------------------------------
+  accordinan responsive faqs
+------------------------------------------------- */
+
+/* @media only screen and (min-width:425px) and (max-width:320px) {
+    .card .collapse .div{
+        text-align: center;
+    }
+} */
+
+/* --------------------------------------------
+  faq margin starts
+------------------------------------------------- */
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    #accordion .card{
+        margin: 0px 300px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    #accordion .card{
+        margin: 0px 100px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:425px) {
+    #accordion .card{
+        margin: 0px 0px;
+    }
+}
+/* --------------------------------------------
+  faq margin end
+------------------------------------------------- */
+
+
+/* --------------------------------------------
+  footer mobile view
+------------------------------------------------- */
+@media only screen and (min-width:320px) and (max-width:425px) {
+    #footcopy>.container>.row{
+        text-align: center;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:768px) {
+    #footcopy>.container>.row{
+        text-align: center;
+    }
+}
